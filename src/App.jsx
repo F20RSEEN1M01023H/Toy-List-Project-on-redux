@@ -11,9 +11,10 @@ function Playroom() {
     <div
       style={{
         padding: "30px",
-        border: "8px solid purple",
+        border: "8px solid white",
         margin: "20px",
         borderRadius: "20px",
+        backgroundColor: "gray",
       }}
     >
       <h2>Playroom - Add Toys Here!</h2>
@@ -21,7 +22,12 @@ function Playroom() {
         value={newToy}
         onChange={(e) => setNewToy(e.target.value)}
         placeholder="Type a toy name..."
-        style={{ padding: "10px", fontSize: "18px" }}
+        style={{
+          padding: "10px",
+          fontSize: "18px",
+          borderRadius: "12px",
+          border: "none",
+        }}
       />
       <button
         onClick={() => {
@@ -30,7 +36,14 @@ function Playroom() {
             setNewToy("");
           }
         }}
-        style={{ padding: "10px 20px", margin: "10px", fontSize: "18px" }}
+        style={{
+          padding: "10px 20px",
+          margin: "10px",
+          fontSize: "18px",
+          borderRadius: "12px",
+          border: "none",
+          fontWeight: "bold",
+        }}
       >
         Add Toy
       </button>
@@ -51,7 +64,7 @@ function Bedroom() {
     <div
       style={{
         padding: "30px",
-        border: "8px solid orange",
+        border: "8px solid white",
         margin: "20px",
         borderRadius: "20px",
       }}
@@ -69,13 +82,22 @@ function Bedroom() {
 
 function App() {
   return (
-    <>
-      <h1 style={{ textAlign: "center", fontSize: "40px", color: "purple" }}>
-        Magic Toy House with Vite + Redux!
-      </h1>
-      <Playroom />
-      <Bedroom />
-    </>
+    <div
+      style={{
+        backgroundColor: "gray",
+        padding: "5px",
+        borderRadius: "25px",
+        fontFamily: "monospace",
+      }}
+    >
+      <div>
+        <h1 style={{ textAlign: "center", fontSize: "40px", color: "purple" }}>
+          Magic Toy House with Vite + Redux!
+        </h1>
+        <Playroom />
+        <Bedroom />
+      </div>
+    </div>
   );
 }
 
