@@ -36,7 +36,7 @@
 
 ## 📸 Screenshots
 
-("./src/assets/screencapture-localhost-5173-2025-12-02-20_04_45.png)
+("./src/assets/screencapture-localhost-5173-2025-12-02-20_04_45.png")
 
 ---
 
