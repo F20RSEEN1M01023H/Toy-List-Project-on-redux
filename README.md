@@ -1,16 +1,79 @@
-# React + Vite
+# 📌 Redux Toolkit Mini Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- A clean and simple Todo Application built in React + Redux Toolkit to help beginners understand the core concepts of global state management including:
 
-Currently, two official plugins are available:
+- Adding Todos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Editing Todos
 
-## React Compiler
+- Deleting Todos
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Toggling Todo Completion
 
-## Expanding the ESLint configuration
+- Storing Data in Redux Store
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- This project is designed to be completed in 1–2 hours, yet showcases professional Redux Toolkit structure.
+
+---
+
+## 🚀 Features
+
+- 🟩 Add new tasks
+
+- 🟦 Edit existing tasks
+
+- 🟥 Delete tasks
+
+- 🔄 Mark tasks as complete / incomplete
+
+- 🌐 Global state using Redux Toolkit slice
+
+- 🧱 Clean folder structure
+
+- ⚡ Fast setup with Vite (optional)
+
+---
+
+## 📸 Screenshots
+
+("./src/assets/screencapture-localhost-5173-2025-12-02-20_04_45.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+
+- Redux Toolkit
+
+- React-Redux
+
+- Vite / CRA (your choice)
+
+---
+
+## TailwindCSS (optional)
+
+📂 Project Structure
+src/
+├── app/
+│ └── store.js
+├── features/
+│ └── todos/
+│ ├── todoSlice.js
+│ └── TodoItem.jsx
+├── components/
+│ └── TodoInput.jsx
+├── App.jsx
+└── main.jsx
+
+## 🧠 Concepts You Will Learn
+
+✔ What is Redux Toolkit
+✔ How slices work
+✔ How reducers & actions work
+✔ How to configure global store
+✔ Using useSelector & useDispatch
+✔ How to manage UI state with global state
+
+Perfect for strengthening your Redux foundation.
